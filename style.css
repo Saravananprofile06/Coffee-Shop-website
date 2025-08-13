@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0.5);
+    background: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800px;
+    color: yellow
+}
+
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-weight: 500px;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid yellow;
+}
+
+#navbarSupportedContent button{
+    display: flex;
+    background: yellow;
+    width: 5rem;
+    border-radius: 15px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home{
+    background: url(pic.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#Home h1{
+    font-size: 95px;
+    color: yellow;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Home p{
+    font-size: 25px;
+    color: yellow;
+}
+
+#Home .input-group{
+    width: 40%;
+    height: 45px;
+}
+
+.signin{
+    background: yellow !important;
+    color:black !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+
+#about{
+    background:burlywood;
+}
+
+
+#about h1{
+    font-weight: 900px;
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+#about p{
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+#products{
+    background: bisque;
+}
+
+#products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#products img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    background: bisque;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0,0,0.5);
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 70px;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .3s;
+}
+
+#contact{
+    background: burlywood;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
